@@ -1,6 +1,6 @@
 """EX02 - One Shot Wordle."""
 
-__author__: "730673957"
+__author__ = "730673957"
 
 secret_word: str = "python"
 len_of_word: int = len(secret_word)
