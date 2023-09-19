@@ -22,7 +22,7 @@ while len_of_guess != len_of_word:
 alt_indices: int = 0
 guessed_character: bool = False
 
-while (idx_of_guess < len_of_word) and guessed_character == False:
+while (idx_of_guess < len_of_word) and (guessed_character == False):
     if str(wordle[idx_of_guess]) == str(secret_word[idx_of_guess]): 
         emoji_string = emoji_string + GREEN_BOX
     else:
